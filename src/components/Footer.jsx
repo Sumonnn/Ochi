@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='w-full h-screen p-20 flex bg-zinc-900'>
+    <div className='w-full h-screen text-[#F1F1F1] p-20 flex bg-zinc-900'>
          <div className="w-1/2 h-full flex flex-col justify-between font-['Arial']">
             <div className="heading">
               <h1 className='text-8xl leading-none tracking-tighter -mb-5 font-semibold'>EYE-</h1>
@@ -19,10 +19,27 @@ const Footer = () => {
 
          <div className="w-1/2">
            <h1 className='text-8xl uppercase leading-none tracking-tighter -mb-5 font-semibold'>Presentations</h1>
-           <div className="dets font-['Neue_Montreal'] mt-10">
+           <div className="dets font-['Neue_Montreal']  mt-10">
                 <a className='block text-xl font-light' href="#">Facebook</a>
                 <a className='block text-xl font-light' href="#">Instagram</a>
                 <a className='block text-xl font-light' href="#">Twitter</a>
+           </div>
+           <div className=" flex mt-16">
+              <div className="w-1/2 ">
+                 <a className='block text-xl font-light' href="#">202-1965 W 4th Ave</a>
+                 <a className='block text-xl font-light' href="#">Vancouver, Canada</a>
+              </div>
+              <div className="w-1/2 ">
+                 <a className='block text-xl font-light' href="#">Home</a>
+                 <a className='block text-xl font-light' href="#">Services</a>
+                 <a className='block text-xl font-light' href="#">Our Work</a>
+                 <a className='block text-xl font-light' href="#">About us</a>
+                 <a className='block text-xl font-light' href="#">Insights</a>
+                 <a className='block text-xl font-light' href="#">Contact us</a>
+              </div>
+           </div>
+           <div className="dets font-['Neue_Montreal']  mt-10">
+                <a className='block text-xl font-light' href="#">hello@ochi.design</a>
            </div>
          </div>
     </div>

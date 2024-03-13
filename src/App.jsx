@@ -15,7 +15,7 @@ const App = () => {
 
 
   return (
-    <div className='w-full m-h-screen bg-zinc-900 text-white'>
+    <div className='w-full m-h-screen  bg-[#F1F1F1] text-[#212121]'>
        <Navbar/> 
        <LandingPage/>
        <Marquee/>
